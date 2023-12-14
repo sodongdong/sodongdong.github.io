@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>DESIGN</title>
+        <style>
+            #wrap{
+                min-width: 1920px; /*웹사이트 화면최소 크기*/
+                max-width: 1920px; /*웹사이트 화면최대 크기*/
+                margin: 0px auto;
+            }
+            body{
+                background-color: black;
+                color:white;
+                margin:0px;
+            }
+            header{   
+                background-color: rgb(21, 21, 21);
+                display: flex;
+                justify-content: space-between;
+                padding: 0px 40px;
+            }
+            header h1{
+                font-size: 25px;
+                font-weight: bold;
+                padding: 10px 0px;
+            }
+            header ul{
+                display: flex;
+                list-style: none;
+                padding: 0px;  
+            }
+            header li{
+                padding: 0px 20px;
+                font-size: 16px;
+            }
+            header li a{
+                font-size: 16px;
+                text-decoration: none;
+                color: white;
+            }
+            header h1{
+                margin: 0px;
+            }
+            #main_visual{
+                margin: 0px;
+                padding: 400px 40px;
+                background-image: url("last/img/background33.png");
+                background-size: 100px auto;
+                background-repeat: no-repeat;
+                background-color: black;
+                background-size: contain; /*담기도록*/
+                background-size: cover; /*사이즈에 맞게 덮어 씌우기*/
+                background-position: 50% 50%; /*커버와 포지션 많이 씀*/   
+                text-align: center;
+            }
+            #main_visual h2{
+                font-size: 80px;
+            }
+            #main_visual h3{
+                font-size: 25px;
+                margin-bottom: 80px;
+            }
+            #content1{
+                background-color: white;
+                margin: 0px;
+                color: black;
+                padding: 150px;
+            }
+            #content1 h3{
+                font-size: 28px;
+            }
+            #content1 h4{
+                font-size: 26px;
+            }
+            footer{
+                padding: 100px 40px;
+                background-color: rgb(21, 21, 21);
+                display: flex;
+                justify-content: space-around;
+            }
+            footer div{
+                width: 500px;
+            }
+            #푸터로고{
+                
+            }
+            footer ul{
+                padding: 0px;
+            }
+            footer ul li{
+                list-style: none;
+            }
+            footer h1{
+                font-size: 25px;
+            }
+            #푸터메뉴{
+                border-left: solid 1px rgb(80, 80, 80);
+                border-right: solid 1px rgb(80, 80, 80);
+                padding: 0px 50px;
+                text-align: center;
+            }
+            #푸터메뉴 ul:first-child{
+                display: flex;
+                justify-content: center;
+            }
+            #푸터메뉴 ul:first-child li{
+                border-right: solid 2px rgb(170, 170, 170);
+                padding: 0px 20px;
+            }
+            #푸터메뉴 ul:first-child li:last-child{
+                border: none;
+                text-align: center;
+            }
+            #푸터메뉴 a{
+                text-decoration: none;
+                color: white;
+            }
+            #홍보{
+                text-align: end;
+            }
+            .image ul{
+                list-style: none;
+                justify-content: center;
+                display: flex;
+                padding: 0px;
+            }
+            .image li{
+                justify-content: center;
+            }
+            .image img{
+                width: 800px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="wrap">
+            <header>
+                <h1>SOJEONG'S PORTFOLLIO</h1>
+                <ul>
+                    <li><a href="last.html">HOME</a></li> 
+                    <li><a href="art.html">ART</a></li>
+                    <li>DESIGN</a></li>
+                    <li><a href="index.html">INDEX</a></li>
+                </ul>
+            </header>
+            <div id="main_visual">
+                <h3>PORTFOLLIO</h3>
+                <h2>DESIGN</h2>
+            </div>
+            <div id="content1">
+                <h3>STORY OF DESIGN</h3>
+                <p>
+                    도전하는 디자인, 마음을 담았습니다
+                </p>
+                <h4>콘텐츠 디자인</h4>
+                <section class="image">
+                    <ul>
+                        <li>
+                            <img src="last/img/0001.png">
+                        </li>
+                        <li>
+                            <img src="last/img/001.png">
+                        </li> 
+                </section>
+                <h4>3d디자인</h4>
+                <section class="image">
+                    <ul>
+                        <li>
+                            <img src="last/img/201.png">
+                        </li>
+                        <li>
+                            <img src="last/img/202.png">
+                        </li> 
+                </section>
+            </div>
+            <footer>
+                <div id="푸터로고">
+                    <h1>SOJEONG'S PORTFOLLIO</h1>
+                    <p>
+                        소정이의 포트폴리오 사이트를 방문해주셔서 감사합니다 앞으로도 노력하고 발전하는 디자이너가 되겠습니다
+                    </p>
+                </div>
+                <div id="푸터메뉴">
+                    <ul>
+                        <li>HOME</li> 
+                        <li><a href="art.html">ART</a></li>
+                        <li><a href="design.html">DESIGN</a></li>
+                    </ul>
+                    <ul>
+                        <li>parksojeong email: pssj040223@gmail.com</li>
+                    </ul>
+                </div>
+                <div id="홍보">
+                    <P>문의는 아래 sns로 부탁드립니다.</P>
+                    <ul>
+                        <li>instargram:@sodongdong0223</li>
+                    </ul>
+                </div>
+            </footer>
+        </div>
+    </body>
